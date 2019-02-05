@@ -26,7 +26,7 @@
     integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="./foundation/css/app.css">
     <link rel="stylesheet" href="./foundation/css/foundation.css">
-    <title>React App</title>
+    <title>Home - Cateli</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -43,6 +43,7 @@
     -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="./magnific-popup/jquery.magnific-popup.js"></script>
+    <script src="./foundation/js/vendor/foundation.js"></script>
     <script type="text/javascript">
       $(document).ready(function(){
         $('.gallery-item').magnificPopup({
@@ -52,6 +53,8 @@
               enabled:true
               }
           });
+
+          $(document).foundation();          
       });    
     </script>
   </body>
