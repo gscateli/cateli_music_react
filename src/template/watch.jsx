@@ -3,7 +3,7 @@ import React from 'react'
 export default props => (
     <section className="hero-gray" id="watch">
         <div className="wrap">
-            <h1>WATCH</h1>
+            <h1 className="section-title">Watch</h1>
             <br />
             <div className="responsive-embed widescreen">
                 <article>
