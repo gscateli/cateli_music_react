@@ -6,7 +6,7 @@ export default props => (
             <button className="menu-icon dark" type="button" data-toggle="main-nav"></button>
             <div className="title-bar-title"></div>
         </div>            
-        <div className="top-bar" id="main-nav">
+        <div className="top-bar" id="main-nav" data-animate="hinge-in-from-top hinge-out-from-top">
             <div className="top-bar-left">
                 <ul className="dropdown menu vertical medium-horizontal align-center" data-dropdown-menu>
                     <li>
